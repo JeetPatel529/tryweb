@@ -1,0 +1,277 @@
+@media (max-width:1440px) {
+
+    .info_section .container {
+        padding: 0 1rem;
+    }
+
+
+}
+
+
+@media (max-width:990px) {
+    .info_section .name_framer {
+        margin-right: -8rem
+    }
+
+    .info_section .Capabilities_framer {
+        max-width: 100%;
+    }
+
+    .info_section .work_framer {
+        max-width: 92%;
+    }
+
+    .info_section .framer2 {
+        padding-bottom: 1rem;
+    }
+
+    .project_section .section-heading-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .project_section .section-heading-row .heading {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+
+    .project_section .section-heading-row .sub-heading {
+        max-width: 100%;
+    }
+
+    .project_section .project-list {
+        gap: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .name_framer h1 {
+        font-size: 4rem;
+    }
+
+    .info_section .container {
+        padding: 12px;
+    }
+
+    .info_section .framer1 {
+        gap: 24px;
+    }
+
+    .header .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar-toggle_btn {
+        display: flex;
+    }
+
+    .header .navbar .nav-list {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 26px 0 12px;
+        display: none;
+    }
+
+    .nav-list_active {
+        display: flex !important;
+    }
+
+    .header_mob {
+        backdrop-filter: blur(8px);
+    }
+
+
+    .info_section .info_section-row {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .info_section .name_framer {
+        margin-right: 0;
+    }
+
+    .info_section .work_framer {
+        margin: 0;
+        margin-right: auto;
+    }
+
+    .info_section .framer2 {
+        width: 100%;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .info_section .location_framer {
+        margin-bottom: -14rem;
+    }
+
+    .project_section .project-list .project-box {
+        padding: 16px;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+    }
+
+    .info_section {
+        padding: 10rem 0 5rem;
+    }
+
+    .footer {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        padding: 22px;
+    }
+
+    .footer .social-links li {
+        font-size: 28px;
+    }
+
+}
+
+
+
+@media (max-width:580px) {
+    .info_section .work_framer {
+        max-width: 100%;
+    }
+
+    .info_section .framer2 {
+        flex-direction: column;
+    }
+
+    .info_section .framer1 {
+        gap: 12px;
+    }
+
+    .info_section .info_section-row {
+        gap: 12px;
+    }
+
+    .info_section .location_framer {
+        margin-bottom: 0;
+    }
+
+
+    .info_section .framer {
+        border-radius: 24px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        -o-border-radius: 24px;
+    }
+
+    .project_section .project-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding-top: 4rem;
+    }
+
+    .project_section .project-list .project-box:nth-child(even) {
+        margin-top: 0;
+    }
+
+    .project_section .project-list .project-box:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    .project_section .project-list .project-box {
+        padding: 32px;
+        border-radius: 24px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        -o-border-radius: 24px;
+    }
+
+    .project_section .section-heading-row .heading {
+        font-size: 28px;
+        padding: 24px 32px;
+    }
+
+    .project_section .section-heading-row .sub-heading {
+        padding: 24px 32px;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width:440px) {
+
+    .header .navbar {
+        padding: 12px;
+    }
+
+    .header .navbar .nav-list .nav-link {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .header .navbar .nav-list {
+        padding: 16px 0 0;
+    }
+
+    .navbar-toggle_btn {
+        width: 48px;
+        height: 36px;
+    }
+
+    .info_section .name_framer {
+        padding: 12px 24px;
+    }
+
+    .info_section .name_framer h1 {
+        font-size: 3rem;
+    }
+
+    .info_section .info_framer,
+    .info_section .work_framer,
+    .info_section .Capabilities_framer,
+    .info_section .location_framer {
+        padding: 32px 24px;
+    }
+
+    .info_section .work_framer .work-list {
+        gap: 18px;
+    }
+
+    .info_section .work_framer {
+        gap: 24px;
+    }
+
+    .info_section .Capabilities_framer {
+        gap: 24px;
+    }
+
+    .footer {
+        margin-bottom: 2rem;
+    }
+
+    .footer .social-links li {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
